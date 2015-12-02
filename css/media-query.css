@@ -1,0 +1,159 @@
+@media (max-width: 1024px) {
+   .wrapper{
+   	width: 100%;
+   }
+   .nav .nav-item {
+	    padding: 0px 18px;
+	}
+	.footer-content{
+		padding: 0px 20px;
+	}
+	.post-container{
+		padding: 0px 20px;
+	}
+	.contact-details .input-md, .contact-details .textarea-md{
+		width: 100%;
+	}
+
+}
+@media (max-width: 991px) {
+	.post-container{
+		padding: 0px 20px;
+	}
+	.post-pic{
+		float: none;
+		margin: 0 auto;
+	}
+	.post-dec, .post-pic{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.post-title, .post-date{
+		text-align: center;
+	}
+	.contact-details .input-md{
+		
+	}
+	.img-item{
+		float: none;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.prop-grid{
+		padding: 0px 20px;
+	}
+	.prop-pic-container, .prop-desc-container{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+
+	}
+	.prop-pic-container{
+		text-align: center;
+	}
+	.prop-desc{
+		padding: 0;
+		text-align: center;
+	}
+	.pro-smt{
+		text-align: center;
+	}
+	.contact-wrapper{
+		width: 100%;
+	} 
+
+}
+
+@media (max-width: 767px) {
+	.grid-box{
+		width: 100%;
+		padding: 10px 0px;
+	}
+	.contact-details {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contact-details .input-md , .contact-details .textarea-md{
+	    width: 320px;
+	    margin: 10px auto;
+	    text-align: center;
+	}
+	.home-prop-dec{
+		width: 100%;
+		text-align: center;
+	}
+	.nav{
+		display:none;
+	}
+	.mobile-menu{
+		display: block !important;
+	}
+	.dec-md{
+		font-size: 18px;
+	}
+	h4{
+	  font-size: 14px;
+	}
+
+	h3{
+	  font-size: 18px;
+	  margin: 18px 0px;
+	}
+	h2{
+	  font-size: 22px;
+	}
+	h1{
+	  font-size: 26px;
+	}
+	.story-dec{
+		font-size: 16px;
+	}
+
+} 
+
+@media (max-width: 640px) {
+	.foot-left, .foot-right{
+		float: none;
+    	text-align: center;
+	}
+
+	.prop-pic-container img, .pack-desc{
+		width: 100%;
+	}
+	.contact-inputs{
+		width: 320px !important;
+	}
+	.input-sm input, .textarea-lg textarea{
+		width: 90% !important;
+	}
+	.input-sm, .textarea-lg{
+		padding: 10px 0px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact-inputs .input-row .pull-left, .contact-inputs .input-row .pull-right{
+		float: none;
+	}
+	.social-contact-info li {
+    	padding: 0px 0px 5px 20px;
+	}
+
+}
+@media (max-width: 480px) {
+	.img-item img{
+		width: 100%;
+		height: 100%;
+	}
+	.social-contact-info li {
+    	padding: 0px 0px 5px 20px;
+    	font-size: 16px;
+	}
+}
+
+@media (max-width: 400px) {
+	.btn-orange-md{
+		width: 100%;
+	}
+}
+
