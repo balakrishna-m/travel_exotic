@@ -32,9 +32,6 @@
 	.post-title, .post-date{
 		text-align: center;
 	}
-	.contact-details .input-md{
-		
-	}
 	.img-item{
 		float: none;
 	    margin: 0 auto;
@@ -61,6 +58,9 @@
 	}
 	.contact-wrapper{
 		width: 100%;
+	}
+	.home-wrapper{
+		width: 95%;
 	} 
 
 }
@@ -77,7 +77,6 @@
 	.contact-details .input-md , .contact-details .textarea-md{
 	    width: 320px;
 	    margin: 10px auto;
-	    text-align: center;
 	}
 	.home-prop-dec{
 		width: 100%;
@@ -108,6 +107,10 @@
 	}
 	.story-dec{
 		font-size: 16px;
+	}
+
+	#map{
+		height: 640px !important;
 	}
 
 } 
@@ -153,7 +156,10 @@
 
 @media (max-width: 400px) {
 	.btn-orange-md{
-		width: 100%;
+		width: 80%;
+	}
+	.s-sub-title-header .input-xmd input{
+		width: 74%;
 	}
 }
 

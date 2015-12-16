@@ -15,7 +15,7 @@
     <div class="wrapper-container full-width">
         <section class="full-width box-bottom header-section">
             <div class="wrapper">
-               <div class="header clearfix">
+               <div class="header clearfix overflow-visible">
                     <div class="nav text-center">
                         <ul class="">
                             <li class="nav-item active-tab"><a href="index.html">Home</a></li>
@@ -26,7 +26,7 @@
                         </ul>
                     </div>
 
-                   <div class="mobile-menu" style="display:none;">
+                   <div class="mobile-menu pos-rel" style="display:none;">
                         <div class="menu-bar-mob clearfix">
                             <div class="logo-mob pull-left">
                                 <img src="img/logo.png" alt="" width='100' height="50">
@@ -210,7 +210,7 @@
             <div id="map" style="height:400px;"></div>   
             <div class="contact-container" style="">
                 <div class="wrapper">
-                    <div class="contact-wrapper">
+                    <div class="contact-wrapper home-wrapper">
                         <h1 class="text-center txt-white p-bottom-spave">CONTACT US</h1>
                         <div class="contact-address text-center txt-white p-bottom-space">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed sapiente odit similique! Obcaecati, laboriosam delectus provident harum aspernatur eius fugit</p> 
@@ -274,13 +274,6 @@
             },function(){
                 $(this).find('.img-desc').hide();
             });
-
-            var width = $(window).width();
-
-            if(width <= 767){
-               $('#map').css( "height", windowHeight - 250);     
-            }
-
         });
     </script>
 </body>

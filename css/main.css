@@ -527,12 +527,19 @@ ul li{
 .nav-bar-mob{
   text-align: center;
   font-size: 18px;
-  margin-top: 15px;
   background: rgb(247, 247, 247);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 76px;
+  z-index: 5555;
 }
 
 .nav-bar-mob li{
   padding: 30px;
+}
+.overflow-visible{
+  overflow: visible;
 } 
 
 /*ops-reg{
