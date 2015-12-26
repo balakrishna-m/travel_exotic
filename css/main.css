@@ -2,7 +2,8 @@
 body{
   margin: 0px;
   font-family: "gotham-light";
-  font-weight: 100
+  font-weight: 100;
+  margin-top: 118px;
 }
 h1,h2,h3,h4,h5,p{
   font-weight: 100
@@ -38,8 +39,18 @@ h1{
   border-bottom: 2px dotted #777777;
 }
 .box-bottom{
-  box-shadow: 0 0 2px 2px rgba(216, 216, 216, 0.65);
+  box-shadow: 0 0 1px 1px rgba(156,156,156,0.13);
   border-bottom: 1px solid #d8d8d8;
+}
+
+.header-fixed{
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 66666;
+  background-color: #fff;
+  opacity: .98;
+  will-change: transform;
 }
 
 .clearfix{
@@ -533,10 +544,13 @@ ul li{
   right: 0px;
   top: 76px;
   z-index: 5555;
+  box-shadow: 0 0 1px 1px rgba(156,156,156,0.13);
+  border-bottom: 1px solid #d8d8d8;
 }
 
-.nav-bar-mob li{
+.nav-bar-mob li a{
   padding: 30px;
+  display: block;
 }
 .overflow-visible{
   overflow: visible;

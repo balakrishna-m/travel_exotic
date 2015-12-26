@@ -66,6 +66,9 @@
 }
 
 @media (max-width: 767px) {
+	body{
+		margin-top: 87px;
+	}
 	.grid-box{
 		width: 100%;
 		padding: 10px 0px;
